@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .header__logo {
+  margin: 30px 0 auto 405px;
+}
+
+.header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 55px 405px auto auto;
+}
+
+.header .header__menu .header__menu-item {
+  margin-left: 40px;
+}
+
+.header .header__menu .header__menu-item:nth-child(1) {
+  margin-left: 0;
+}
+
+.first-screen {
+  background-image: url(../../image/header__bg.png);
+  min-height: 840px;
+  width: 100%;
+  margin-top: -96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.first-screen .first-screen__name {
+  color: #d4c17f;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 64px;
+  padding-top: 296px;
+  margin: 0 auto;
+  max-width: 556px;
+  text-align: center;
+}
+
+.first-screen .first-screen__mouse {
+  margin: 100px auto auto auto;
+}
+
+.first-screen .first-screen__contacts {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 200px 685px 74px 685px;
+}
+
+.first-screen .first-screen__contacts .first-screen__contacts-address {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-right: 115px;
+}
+
+.first-screen .first-screen__contacts .first-screen__contacts-address .first-screen__contacts-address-image {
+  margin-right: 10px;
+}
+
+.first-screen .first-screen__contacts .first-screen__contacts-telephone {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.first-screen .first-screen__contacts .first-screen__contacts-telephone .first-screen__contacts-telephone-image {
+  margin-right: 10px;
+}
+
+.description {
+  background-color: #242b33;
+  padding: 120px 563px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description .description__item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 65px;
+}
+
+.description .description__item-container:nth-child(4) {
+  margin-right: 0;
+}
+
+.description .description__item-container .description__item {
+  margin: 0 auto 53px auto;
+  height: 80px;
+  width: 80px;
+}
+
+.description .description__item-container .description__item-label {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.description .description__item-container .description__item-label:nth-child(1) {
+  width: 193px;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+
+$color1: #fff;
+$color2: #d4c17f;
+$ffRaleway: "Raleway", sans-serif;
+$ffPlayfairDisplay: "Playfair Display", serif;
+$ffRoboto: "Roboto", sans-serif;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  .header__logo {
+    margin: 30px 0 auto 405px;
+  }
+
+  .header__menu {
+    display: flex;
+    font-family: $ffRaleway;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: $color1;
+    margin: 55px 405px auto auto;
+
+    .header__menu-item {
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      margin-left: 40px;
+    }
+  }
+}
+
+.first-screen {
+  background-image: url(../../image/header__bg.png);
+  min-height: 840px;
+  width: 100%;
+  margin-top: -96px;
+  display: flex;
+  flex-direction: column;
+
+  .first-screen__name {
+    color: $color2;
+    font-family: $ffPlayfairDisplay;
+    font-size: 48px;
+    line-height: 64px;
+    padding-top: 296px;
+    margin: 0 auto;
+    max-width: 556px;
+    text-align: center;
+  }
+
+  .first-screen__mouse {
+    margin: 100px auto auto auto;
+  }
+
+  .first-screen__contacts {
+    color: $color1;
+    font-family: $ffRaleway;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    margin: 200px 685px 74px 685px;
+
+    .first-screen__contacts-address {
+      align-self: flex-start;
+      margin-right: 115px;
+      .first-screen__contacts-address-image {
+        margin-right: 10px;
+      }
+    }
+
+    .first-screen__contacts-telephone {
+      align-self: flex-end;
+      .first-screen__contacts-telephone-image {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.description {
+  background-color: #242b33;
+  padding: 120px 563px;
+  display: flex;
+
+  .description__item-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+
+    .description__item {
+      margin: 0 auto 53px auto;
+      height: 80px;
+      width: 80px;
+    }
+
+    .description__item-label {
+      text-align: center;
+      margin: 0 auto;
+      font-family: $ffRoboto;
+      font-size: 20px;
+      color: $color1;
+      &:nth-child(1) {
+        width: 193px;
+      }
+    }
+  }
+}
